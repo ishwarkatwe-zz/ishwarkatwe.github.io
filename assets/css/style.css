@@ -1,0 +1,93 @@
+/* 
+    Document   : style.css
+    Created on : 6 Feb, 2016, 2:06:57 PM
+    Author     : Happy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html, body { 
+    background: #202123;
+    color:#FDFEFD;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.dp{
+    padding: 30px
+}
+
+@media (min-width: 992px){
+    .orange-bg{
+        min-height: 380px
+    }
+    .linkbox{
+        min-height: 250px
+    }
+}
+.orange-bg{
+    background: #AD3939;
+    padding: 30px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+ul.social{
+    padding: 0px;
+}
+ul.social> li{
+    line-height: 40px;
+    list-style: none;
+}
+
+.work{
+    background-color: #242529;
+}
+.edu, .work{
+    padding: 50px;
+}
+
+.work >h2{
+    color: #AD3939;
+}
+
+.edu >h2{
+    color: #AD3939;
+}
+
+.icons{
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    background-color: #FFF;
+    color: #AD3939;
+    border-radius: 30px;
+    height: 35px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.progress-bar{
+    background-color: #AD3939;
+}
+
+.header{
+    font-size: 20px;
+}
+.desc{
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: #AD3939 !important;
+}
